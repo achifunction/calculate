@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <div class="mainconteiner">
+      <img
+        class="logo"
+        src="https://cdn.glitch.global/ee004d21-c1b1-4cc9-bc4a-0d11074f23ce/logo.svg?v=1658075098339"
+      />
+      <div class="mainconteiner1">
+        <section class="section1">
+          <h1 id="title">Bill</h1>
+          <div class="billsection">
+            <img
+              class="currency"
+              src="https://cdn.glitch.global/ee004d21-c1b1-4cc9-bc4a-0d11074f23ce/icon-dollar.svg?v=1658075106763"
+            />
+            <input type="text" class="numbers" id="bill" />
+          </div>
+          <span class="select-tip">Select Tip %</span>
+          <div class="custom">
+            <div class="buttonbox">
+              <button type="button" id="b5%">5%</button>
+              <button type="button" id="b10%">10%</button>
+              <button type="button" id="b15%">15%</button>
+            </div>
+            <div class="buttonbox">
+              <button type="button" id="b25%">25%</button>
+              <button type="button" id="b50%">50%</button>
+              <input
+                type="text"
+                class="custom1"
+                placeholder="custom"
+                id="costbutton"
+              />
+            </div>
+          </div>
+          <span id="numpeo">Number of People</span>
+            <!-- <a id="zero">Can’t be zero</a> -->
+          <div class="people">
+            <img
+              class="per"
+              src="https://cdn.glitch.global/ee004d21-c1b1-4cc9-bc4a-0d11074f23ce/icon-person.svg?v=1658075102527"
+            />
+            <input class="numbers" type="text" id="person" />
+          </div>
+        </section>
+        <section class="section2">
+          <div class="resetsection">
+            <div class="TipAmount">
+              <p class="tip">Tip Amount
+              <span class="person"> / person</span>
+            </p>
+              <span class="number">$0.00</span>
+            </div>
+            <div class="TipAmount">
+              <p class="tip" id="tip1"> Total 
+                <span class="person">/ person</span>
+              </p>
+              <span class="number">$0.00</span>
+            </div>
+
+            <button class="re" id="reset" >RESET</button>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

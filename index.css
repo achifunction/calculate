@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+.logo {
+  margin-left: 105px;
+  padding: 50px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: rgba(197, 228, 231, 1);
+}
+.mainconteiner1 {
+  height: 850px;
+  width: 375px;
+  background: rgba(255, 255, 255, 1);
+  padding-left: 32px;
+  border-radius: 20px;
+}
+#title {
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5e7a7d;
+  margin: 0px 0px 6px 18px;
+  padding-top: 32px;
+  display: block;
+}
+.billsection {
+  height: 48px;
+  width: 311px;
+  border-radius: 5px;
+  margin-left: 18px;
+}
+.select-tip {
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5e7a7d;
+  margin: 32px 0px 16px 18px;
+  display: block;
+}
+button {
+  height: 48px;
+  width: 146.6311798095703px;
+
+  border-radius: 5px;
+  background: rgba(0, 71, 75, 1);
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  display: block;
+  margin: 10px;
+  border: none;
+}
+#numpeo {
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5e7a7d;
+  padding: 32px 0px 6px 18px;
+  display: block;
+}
+.people {
+  height: 48px;
+  width: 311px;
+  border-radius: 5px;
+  margin: 0px 34px 60px 12px;
+}
+.section2 {
+  background: rgba(0, 71, 75, 1);
+  height: 280px;
+  width: 327px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
+.tip {
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.numbers {
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 47px;
+  text-align: right;
+  color: #26c2ae;
+  height: 48px;
+  width: 311px;
+  border-radius: 5px;
+  background: rgba(243, 249, 250, 1);
+  border: none;
+}
+.number {
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 47px;
+  text-align: right;
+  color: #26c2ae;
+  border:none;
+  margin-top: 20px;
+  margin-left: 45px;
+}
+.reset {
+  height: 48px;
+  width: 281px;
+  border-radius: 5px;
+  background: rgba(38, 194, 174, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.re {
+  display: block;
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  height: 48px;
+  width: 281px;
+  border-radius: 5px;
+  background: rgba(38, 194, 174, 1);
+  color: #00474b;
+  border: none;
+  margin-top: 35px;
+}
+.TipAmount {
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-around;
+  height: 10px;
+}
+.custom {
+  display: flex;
+}
+.button-box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.currency {
+  position: absolute;
+  top: 247px;
+  left: 250px;
+}
+.per {
+  position: absolute;
+  top: 613px;
+  left: 250px;
+}
+.custom1 {
+  height: 43px;
+  width: 138px;
+  border-radius: 5px;
+  background: rgba(243, 249, 250, 1);
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: rgba(0, 71, 75, 1);
+
+  display: block;
+  margin: 10px;
+  border: none;
+}
+.person {
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 19px;
+
+  color: #7f9d9f;
+}
+.resetsection {
+  display: grid;
+}
+#tip1 {
+  margin-right: 44px;
+}
+#zero {
+font-family: "Space Mono", monospace;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+text-align: right;
+color: #E17457;
+
+}
